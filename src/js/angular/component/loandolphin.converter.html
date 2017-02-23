@@ -1,0 +1,18 @@
+<div class="row">
+	<div class="col-md-6">
+		<div class="form-group">
+			<div class="input-group">
+			  <div class="input-group-addon">{{$ctrl.from}} $</div>
+			  <input type="text" class="form-control" ng-model="$ctrl.value" ng-model-options="{debounce: 500}" ng-change="$ctrl.onChangeValue()">
+			</div>
+		</div>
+	</div>
+	<div class="col-md-6 flex">
+		<div class="form-group">
+			<div class="input-group">
+			  <div class="input-group-addon">{{$ctrl.to}} $</div>
+			  <input type="text" class="form-control" ng-model="$ctrl.convertedValue" ng-disabled="true">
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,37 @@
+{
+  "name": "loandolphin-converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/caltras/loandolphin-converter.git"
+  },
+  "keywords": [
+    "angular",
+    "gulp",
+    "bower",
+    "html",
+    "css"
+  ],
+  "author": "Claudio Traspadini Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caltras/loandolphin-converter/issues"
+  },
+  "homepage": "https://github.com/caltras/loandolphin-converter#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-copy": "^1.0.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.0.1",
+    "http-server": "^0.9.0",
+    "jshint": "^2.9.4"
+  }
+}
